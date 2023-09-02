@@ -1,0 +1,143 @@
+body {
+    font-family: Ubuntu, 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+.header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.header p {
+    font-weight: 800;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    margin-left: auto;
+}
+
+
+
+.content {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+
+.background-first {
+    background-color: #1f2937;
+}
+
+.background-third {
+    background-color: #e5e7eb;
+}
+
+
+
+.first {
+    display: flex;
+    color: white;
+}
+
+.left-side-first-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side-first-section {
+
+}
+
+
+.second {
+
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 64px auto;
+    flex-wrap: wrap;
+}
+
+.fourth {
+    display: flex;
+    margin: 64px auto;
+    justify-content: space-between;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 32px 80px;
+    width: 50%;
+}
+
+
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-owner {
+    margin-left: auto;
+    font-weight: 800;
+}
+
+.left-text-fourth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fourth button {
+    border: 1px solid white;
+}
+
+.thick-text {
+    font-weight: 800;
+}
+
+
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    padding: 16px;
+}
+
+
+
+button {
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+}
