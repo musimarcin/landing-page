@@ -6,16 +6,18 @@ body {
 }
 
 
-.header {
+body .header {
     display: flex;
     color: white;
     justify-content: space-between;
     align-items: center;
     width: 80%;
+    margin-top: 0;
 }
 
 .header p {
     font-weight: 800;
+    font-size: 24px;
 }
 
 ul {
@@ -29,7 +31,7 @@ ul {
 
 
 .content {
-    margin: 0 auto;
+    margin: 64px auto;
     max-width: 1200px;
 }
 
@@ -44,19 +46,33 @@ ul {
 }
 
 
-
 .first {
     display: flex;
     color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    width: 80%;
+}
+
+.big-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.small-text {
+    font-size: 18px;
 }
 
 .left-side-first-section {
     display: flex;
     flex-direction: column;
+    gap: 16px;
 }
 
-.right-side-first-section {
-
+.right-side-first-section img{
+    width: 600px;
+    height: 300px;
 }
 
 
@@ -110,6 +126,7 @@ ul {
 
 .thick-text {
     font-weight: 800;
+    font-size: 18px;
 }
 
 
