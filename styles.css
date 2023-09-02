@@ -77,7 +77,31 @@ ul {
 
 
 .second {
+    display: flex;
+    gap: 32px;
+    border-radius: 50%;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
 
+.title-second-section {
+    display: flex;
+    justify-content: center;
+    margin: 32px auto;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.image-random-info {
+    max-width: 200px;
+    text-align: center;
+}
+
+.image-random-info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
 }
 
 .third {
